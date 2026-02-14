@@ -7,13 +7,13 @@
 
 body {
   font-family: 'Poppins', Arial, sans-serif;
-  background-color: #0f172a; /* dark navy */
+  background-color: #0F172A; /* dark navy */
   color: #e5e7eb; /* light gray */
   line-height: 1.6;
 }
 .container {
   width: 100%;
-  max-width: 1140px; /* bisa 960px / 1200px juga */
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -39,6 +39,10 @@ nav {
   letter-spacing: 2px;
 }
 
+.logo span:hover {
+  color: #38bdf8;
+}
+
 .nav-menu {
   list-style: none;
   display: flex;
@@ -53,10 +57,7 @@ nav {
 }
 
 .nav-menu li:hover {
-  color: #38bdf8;
-  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
   transform: scale(1.1);
-
 }
 
 .nav-menu li.active {
@@ -105,10 +106,11 @@ main {
 #about h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
+
 }
 
 #about p {
-  color: #cbd5f5;
+  color: #c4d9fb;
 }
 
 /* ===== SKILLS ===== */
