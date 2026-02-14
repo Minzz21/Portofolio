@@ -217,14 +217,14 @@ main {
 
 /* ===== CONTACT ===== */
 #contact {
-  padding: 6rem 3rem;
+  padding: 3rem 1rem;
   text-align: center;
   background: radial-gradient(circle at center, #2d3b55 0%, #1e293b 70%);
 }
 
 #contact h2 {
   font-size: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .contact-container {
